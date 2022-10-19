@@ -2,13 +2,17 @@ nav{
     height: 100px;
     background-color: aqua;
 }
+button{
+    height: 100px;
+    background-color: orange;
+}
 header{
     height: 75vh;
     background-image: url(https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
 }
 section{
     background-color: red;
-    column-count: 12;
+    column-count: 3;
 }
 
 div{
@@ -17,3 +21,9 @@ div{
     margin: 10px;
 }
 
+.gallery-img-one{
+    background-image: url(https://images.pexels.com/photos/13440765/pexels-photo-13440765.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.gallery-img-two{
+    height: 100px;
+}
